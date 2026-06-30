@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['full_name'])) {
 
     // Generate once per application
     $_SESSION['fee'] = random_int(100, 200);
-    $_SESSION['loan_amount'] = random_int(10000, 70000);
+    $_SESSION['loan_amount'] = random_int(10000, 30000);
 }
 
 /*
